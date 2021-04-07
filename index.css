@@ -79,15 +79,15 @@ nav a{
 
 .orange{
     background-color:#FF764E;
-    margin-left:10%;
+    margin-left:15%;
 }
 .blue{
     background-color: #5ED3EB;
-    margin:0 24%;
+    margin:0 18%;
 }
 .yellow{
     background-color: #FFCD69;
-    margin-right:10%;
+    margin-right:15%;
 }
 
 /*Top Section Styles*/
@@ -98,14 +98,14 @@ nav a{
 .top div{
     display: inline-block;
     width:45%;
-    margin:0 2%;
+    margin:0 3%;
     text-align: center;
     
 }
 
 .left img{
     border-radius: 50%;
-    width:70%;
+    width:50%;
 }
 
 .right{
@@ -113,4 +113,27 @@ nav a{
     line-height: 2;
     position: absolute;
     bottom:20%
+}
+
+/*Middle Section Styles*/
+.text{
+    padding:4%;
+    background-color: #DDB9A3;
+    color:white;
+    margin:0 auto;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.media img{
+    display:inline-block;
+    padding:0 30px;
+    /*margin:0 auto;*/
+    width:10%;
+}
+
+.media p{
+    padding:0 30%;
+    margin:0 auto;
+    text-align: center;
 }
