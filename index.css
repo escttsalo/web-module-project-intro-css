@@ -39,7 +39,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid black;
+    /*border:1px solid black;*/
 }
 
 /* General Styles */
@@ -70,7 +70,7 @@ nav{
 nav a{
     display:inline-block;
     padding:1% 0;
-    border-radius 10px;
+    border-radius: 10px;
     width:10%;
     text-align:center;
     color:white;
@@ -124,16 +124,34 @@ nav a{
     line-height: 2;
     letter-spacing: 2px;
 }
+.media{
+    padding:2%;
+}
 
 .media img{
-    display:inline-block;
-    padding:0 30px;
-    /*margin:0 auto;*/
+    margin:0 45%;
     width:10%;
+    display: inline-block;
+    
 }
 
 .media p{
+    display:inline-block;
     padding:0 30%;
-    margin:0 auto;
+    margin:2% auto;
     text-align: center;
+}
+
+.media span{
+    font-weight: bold;
+}
+
+/*Foot and End Section Styles*/
+.empty{
+    padding:8%;
+    background-image: url("assets/footer_img.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:50vh;
+    /* background-attachment: fixed; */
 }
